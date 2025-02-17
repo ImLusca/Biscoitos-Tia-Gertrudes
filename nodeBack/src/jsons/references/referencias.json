@@ -1,0 +1,80 @@
+{
+  "refs": [
+    {
+      "pagina": "cookies",
+      "descricao": "Cookies doces saborosos que possuem diversos sabores e formatos, são servidos quentes e com o chocolate derretendo."
+    },
+    {
+      "pagina": "brownies",
+      "descricao": "Brownie é um doce típico estadunidense, muito doce e quando bem feito, com uma casquinha crocante por cima e macio por dentro."
+    },
+    {
+      "pagina": "bolo_de_cenoura",
+      "descricao": "O bolo de cenoura é um clássico da confeitaria brasileira, fofinho e coberto com uma irresistível calda de chocolate."
+    },
+    {
+      "pagina": "pudim",
+      "descricao": "Pudim de leite condensado é uma sobremesa cremosa, coberta com uma deliciosa calda de caramelo, perfeita para qualquer ocasião."
+    },
+    {
+      "pagina": "torta_de_maçã",
+      "descricao": "A torta de maçã tem uma massa crocante e recheio suculento de maçãs caramelizadas com canela, trazendo um sabor clássico e aconchegante."
+    },
+    {
+      "pagina": "pão_de_mel",
+      "descricao": "O pão de mel é um doce macio, com especiarias como canela e cravo, recheado e coberto com chocolate."
+    },
+    {
+      "pagina": "chocolate_quente",
+      "descricao": "Chocolate quente cremoso e encorpado, feito com chocolate derretido e leite, perfeito para dias frios."
+    },
+    {
+      "pagina": "café_gourmet",
+      "descricao": "Café preparado com grãos selecionados, trazendo um aroma intenso e sabor equilibrado, ideal para começar bem o dia."
+    },
+    {
+      "pagina": "pão_de_queijo",
+      "descricao": "O pão de queijo mineiro é crocante por fora e macio por dentro, feito com queijo curado e polvilho, uma delícia brasileira."
+    },
+    {
+      "pagina": "empadão_de_frango",
+      "descricao": "Empadão recheado com frango desfiado, temperado com ervas e envolvido por uma massa amanteigada e crocante."
+    },
+    {
+      "pagina": "quiche_de_queijo",
+      "descricao": "Uma torta salgada clássica da culinária francesa, com um recheio cremoso de queijo e uma massa fina e crocante."
+    },
+    {
+      "pagina": "sopa_de_ervilhas",
+      "descricao": "Uma sopa cremosa e reconfortante, feita com ervilhas frescas, temperos e bacon crocante para um sabor extra."
+    },
+    {
+      "pagina": "lasanha_bolonhesa",
+      "descricao": "Camadas de massa intercaladas com molho de carne moída, molho bechamel e queijo gratinado, um prato clássico italiano."
+    },
+    {
+      "pagina": "ravioli_de_ricota",
+      "descricao": "Massa fresca recheada com ricota e espinafre, servida com molho de tomate artesanal ou manteiga de ervas."
+    },
+    {
+      "pagina": "limonada_siciliana",
+      "descricao": "Uma refrescante limonada preparada com limões sicilianos, trazendo um equilíbrio perfeito entre acidez e doçura."
+    },
+    {
+      "pagina": "chá_de_camomila",
+      "descricao": "Chá natural de camomila, conhecido por suas propriedades calmantes e aroma delicado, ideal para relaxar."
+    },
+    {
+      "pagina": "risoto_de_cogumelos",
+      "descricao": "Risoto cremoso preparado com arroz arbóreo, cogumelos frescos e queijo parmesão, um prato sofisticado e saboroso."
+    },
+    {
+      "pagina": "hamburguer_artesanal",
+      "descricao": "Hambúrguer feito com carne suculenta, pão artesanal e ingredientes selecionados, acompanhado de molhos especiais."
+    },
+    {
+      "pagina": "tacos_mexicanos",
+      "descricao": "Tacos recheados com carne temperada, guacamole, queijo e salsa picante, uma explosão de sabores mexicanos."
+    }
+  ]
+}

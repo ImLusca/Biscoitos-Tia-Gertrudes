@@ -1,0 +1,576 @@
+{
+  "refs": [
+    {
+      "pagina": "cookies",
+      "descricao": "Cookies doces saborosos que possuem diversos sabores e formatos, são servidos quentes e com o chocolate derretendo."
+    },
+    {
+      "pagina": "brownies",
+      "descricao": "Brownie é um doce típico estadunidense, muito doce e quando bem feito, com uma casquinha crocante por cima e macio por dentro."
+    },
+    {
+      "pagina": "bolo_de_cenoura",
+      "descricao": "O bolo de cenoura é um clássico da confeitaria brasileira, fofinho e coberto com uma irresistível calda de chocolate."
+    },
+    {
+      "pagina": "pudim",
+      "descricao": "Pudim de leite condensado é uma sobremesa cremosa, coberta com uma deliciosa calda de caramelo, perfeita para qualquer ocasião."
+    },
+    {
+      "pagina": "torta_de_maçã",
+      "descricao": "A torta de maçã tem uma massa crocante e recheio suculento de maçãs caramelizadas com canela, trazendo um sabor clássico e aconchegante."
+    },
+    {
+      "pagina": "pão_de_mel",
+      "descricao": "O pão de mel é um doce macio, com especiarias como canela e cravo, recheado e coberto com chocolate."
+    },
+    {
+      "pagina": "chocolate_quente",
+      "descricao": "Chocolate quente cremoso e encorpado, feito com chocolate derretido e leite, perfeito para dias frios."
+    },
+    {
+      "pagina": "café_gourmet",
+      "descricao": "Café preparado com grãos selecionados, trazendo um aroma intenso e sabor equilibrado, ideal para começar bem o dia."
+    },
+    {
+      "pagina": "pão_de_queijo",
+      "descricao": "O pão de queijo mineiro é crocante por fora e macio por dentro, feito com queijo curado e polvilho, uma delícia brasileira."
+    },
+    {
+      "pagina": "empadão_de_frango",
+      "descricao": "Empadão recheado com frango desfiado, temperado com ervas e envolvido por uma massa amanteigada e crocante."
+    },
+    {
+      "pagina": "quiche_de_queijo",
+      "descricao": "Uma torta salgada clássica da culinária francesa, com um recheio cremoso de queijo e uma massa fina e crocante."
+    },
+    {
+      "pagina": "sopa_de_ervilhas",
+      "descricao": "Uma sopa cremosa e reconfortante, feita com ervilhas frescas, temperos e bacon crocante para um sabor extra."
+    },
+    {
+      "pagina": "lasanha_bolonhesa",
+      "descricao": "Camadas de massa intercaladas com molho de carne moída, molho bechamel e queijo gratinado, um prato clássico italiano."
+    },
+    {
+      "pagina": "ravioli_de_ricota",
+      "descricao": "Massa fresca recheada com ricota e espinafre, servida com molho de tomate artesanal ou manteiga de ervas."
+    },
+    {
+      "pagina": "limonada_siciliana",
+      "descricao": "Uma refrescante limonada preparada com limões sicilianos, trazendo um equilíbrio perfeito entre acidez e doçura."
+    },
+    {
+      "pagina": "chá_de_camomila",
+      "descricao": "Chá natural de camomila, conhecido por suas propriedades calmantes e aroma delicado, ideal para relaxar."
+    },
+    {
+      "pagina": "risoto_de_cogumelos",
+      "descricao": "Risoto cremoso preparado com arroz arbóreo, cogumelos frescos e queijo parmesão, um prato sofisticado e saboroso."
+    },
+    {
+      "pagina": "hamburguer_artesanal",
+      "descricao": "Hambúrguer feito com carne suculenta, pão artesanal e ingredientes selecionados, acompanhado de molhos especiais."
+    },
+    {
+      "pagina": "tacos_mexicanos",
+      "descricao": "Tacos recheados com carne temperada, guacamole, queijo e salsa picante, uma explosão de sabores mexicanos."
+    },
+    {
+      "pagina": "cheesecake_de_morango",
+      "descricao": "Cheesecake cremoso com base de biscoito, coberto com geleia de morango, uma sobremesa clássica e irresistível."
+    },
+    {
+      "pagina": "mousse_de_chocolate",
+      "descricao": "Mousse de chocolate é uma sobremesa leve e aerada, feita com chocolate meio amargo e creme de leite fresco."
+    },
+    {
+      "pagina": "tiramisu",
+      "descricao": "Tiramisu é uma sobremesa italiana feita com camadas de biscoitos champanhe embebidos em café e creme de mascarpone."
+    },
+    {
+      "pagina": "brigadeiro_gourmet",
+      "descricao": "Brigadeiro gourmet feito com chocolate belga e leite condensado, coberto com granulado de chocolate ou nozes."
+    },
+    {
+      "pagina": "sorvete_de_baunilha",
+      "descricao": "Sorvete de baunilha cremoso, feito com baunilha natural, ideal para acompanhar tortas e sobremesas."
+    },
+    {
+      "pagina": "panquecas_americanas",
+      "descricao": "Panquecas fofinhas e douradas, servidas com xarope de bordo e manteiga, um café da manhã clássico americano."
+    },
+    {
+      "pagina": "waffles_belgas",
+      "descricao": "Waffles belgas crocantes por fora e macios por dentro, servidos com frutas frescas e chantilly."
+    },
+    {
+      "pagina": "crepe_suzette",
+      "descricao": "Crepe Suzette é uma deliciosa sobremesa francesa, servida com molho de caramelo e licor de laranja."
+    },
+    {
+      "pagina": "panna_cotta",
+      "descricao": "Panna cotta é uma sobremesa italiana cremosa, feita com creme de leite, açúcar e baunilha, servida com calda de frutas."
+    },
+    {
+      "pagina": "macarons",
+      "descricao": "Macarons são doces franceses feitos com amêndoas, claras de ovos e recheios variados, como ganache e geleias."
+    },
+    {
+      "pagina": "donuts",
+      "descricao": "Donuts são rosquinhas fofas e açucaradas, cobertas com glacê e confeitos coloridos, perfeitas para um lanche doce."
+    },
+    {
+      "pagina": "croissant",
+      "descricao": "Croissant é um pão folhado francês, crocante por fora e macio por dentro, ideal para o café da manhã."
+    },
+    {
+      "pagina": "baguette",
+      "descricao": "Baguette é um pão francês tradicional, com casca crocante e miolo macio, perfeito para sanduíches e acompanhamentos."
+    },
+    {
+      "pagina": "sanduiche_de_pernil",
+      "descricao": "Sanduíche de pernil assado, com queijo derretido, mostarda e picles, servido em pão artesanal."
+    },
+    {
+      "pagina": "salada_caesar",
+      "descricao": "Salada Caesar clássica, com alface romana, croutons, queijo parmesão e molho cremoso à base de anchovas."
+    },
+    {
+      "pagina": "salada_grega",
+      "descricao": "Salada grega fresca, com tomate, pepino, azeitonas, queijo feta e temperada com azeite e orégano."
+    },
+    {
+      "pagina": "ceviche",
+      "descricao": "Ceviche é um prato peruano feito com peixe cru marinado em suco de limão, cebola roxa e pimenta."
+    },
+    {
+      "pagina": "sushi",
+      "descricao": "Sushi é um prato japonês feito com arroz temperado, peixe cru e algas, servido com molho de soja e wasabi."
+    },
+    {
+      "pagina": "tempura",
+      "descricao": "Tempura é um prato japonês de legumes e frutos do mar empanados e fritos, servidos com molho tentsuyu."
+    },
+    {
+      "pagina": "ramen",
+      "descricao": "Ramen é uma sopa japonesa com macarrão, caldo rico, ovos cozidos e fatias de porco, um prato reconfortante."
+    },
+    {
+      "pagina": "pad_thai",
+      "descricao": "Pad Thai é um prato tailandês feito com macarrão de arroz, camarões, tofu e amendoim, temperado com tamarindo."
+    },
+    {
+      "pagina": "curry_verde",
+      "descricao": "Curry verde tailandês é um prato picante e aromático, feito com leite de coco, ervas e frango ou camarão."
+    },
+    {
+      "pagina": "falafel",
+      "descricao": "Falafel é um prato árabe feito com bolinhas fritas de grão-de-bico, servidas com pão pita e molho de tahine."
+    },
+    {
+      "pagina": "hummus",
+      "descricao": "Hummus é uma pasta cremosa de grão-de-bico, tahine, alho e limão, servida com pão pita ou legumes frescos."
+    },
+    {
+      "pagina": "shawarma",
+      "descricao": "Shawarma é um prato árabe de carne assada em espeto, servida em pão pita com molho de alho e vegetais."
+    },
+    {
+      "pagina": "paella",
+      "descricao": "Paella é um prato espanhol feito com arroz, frutos do mar, frango e legumes, cozidos em uma panela especial."
+    },
+    {
+      "pagina": "gazpacho",
+      "descricao": "Gazpacho é uma sopa fria espanhola, feita com tomates, pepinos, pimentões e azeite, perfeita para dias quentes."
+    },
+    {
+      "pagina": "feijoada",
+      "descricao": "Feijoada é um prato brasileiro feito com feijão preto, carnes variadas e acompanhado de arroz, couve e farofa."
+    },
+    {
+      "pagina": "moqueca",
+      "descricao": "Moqueca é um prato brasileiro de peixe cozido em panela de barro com leite de coco, dendê e pimentões."
+    },
+    {
+      "pagina": "acarajé",
+      "descricao": "Acarajé é um prato típico da Bahia, feito com bolinhos de feijão-fradinho fritos no azeite de dendê e recheados com camarão."
+    },
+    {
+      "pagina": "pão_de_alho",
+      "descricao": "Pão de alho é um acompanhamento delicioso, feito com pão francês, alho, manteiga e queijo, assado até ficar crocante."
+    },
+    {
+      "pagina": "batata_rústica",
+      "descricao": "Batata rústica assada com alecrim, azeite e sal grosso, perfeita para acompanhar carnes e churrascos."
+    },
+    {
+      "pagina": "polenta_frita",
+      "descricao": "Polenta frita é um acompanhamento crocante, servido com molho de tomate ou queijo derretido."
+    },
+    {
+      "pagina": "arroz_de_forno",
+      "descricao": "Arroz de forno é um prato cremoso, feito com arroz, queijo, presunto e molho branco, gratinado no forno."
+    },
+    {
+      "pagina": "canelone",
+      "descricao": "Canelone é um prato italiano de massa recheada com carne ou queijo, coberto com molho de tomate e queijo gratinado."
+    },
+    {
+      "pagina": "nhoque",
+      "descricao": "Nhoque é uma massa italiana feita com batata, farinha e ovos, servida com molho de tomate ou pesto."
+    },
+    {
+      "pagina": "gnocchi_alla_sorrentina",
+      "descricao": "Gnocchi alla Sorrentina é um prato italiano de nhoque cozido, gratinado com molho de tomate, queijo e manjericão."
+    },
+    {
+      "pagina": "carpaccio",
+      "descricao": "Carpaccio é um prato italiano de fatias finas de carne crua, temperadas com azeite, limão e queijo parmesão."
+    },
+    {
+      "pagina": "bruschetta",
+      "descricao": "Bruschetta é um antipasto italiano feito com pão torrado, tomate, alho, manjericão e azeite de oliva."
+    },
+    {
+      "pagina": "caprese",
+      "descricao": "Salada caprese é um prato italiano simples, feito com tomate, mussarela de búfala, manjericão e azeite."
+    },
+    {
+      "pagina": "risotto_alla_milanese",
+      "descricao": "Risotto alla Milanese é um prato italiano cremoso, feito com arroz arbóreo, açafrão e queijo parmesão."
+    },
+    {
+      "pagina": "ossobuco",
+      "descricao": "Ossobuco é um prato italiano de carne de vitela cozida lentamente com legumes, vinho branco e gremolata."
+    },
+    {
+      "pagina": "cannoli",
+      "descricao": "Cannoli é uma sobremesa italiana feita com massa crocante recheada com ricota doce e gotas de chocolate."
+    },
+    {
+      "pagina": "gelato",
+      "descricao": "Gelato é um sorvete italiano cremoso, feito com leite, açúcar e sabores naturais, como frutas e chocolate."
+    },
+    {
+      "pagina": "tarte_tatin",
+      "descricao": "Tarte Tatin é uma torta francesa de maçã caramelizada, com massa folhada crocante, servida quente."
+    },
+    {
+      "pagina": "creme_brulee",
+      "descricao": "Creme brûlée é uma sobremesa francesa cremosa, com uma camada crocante de açúcar caramelizado."
+    },
+    {
+      "pagina": "profiteroles",
+      "descricao": "Profiteroles são pequenos bolinhos de massa folhada recheados com creme e cobertos com chocolate derretido."
+    },
+    {
+      "pagina": "mille-feuille",
+      "descricao": "Mille-feuille é um doce francês feito com camadas de massa folhada e creme pastelero, coberto com glacê."
+    },
+    {
+      "pagina": "souffle",
+      "descricao": "Soufflé é um prato francês leve e aerado, feito com ovos e queijo, servido como prato principal ou sobremesa."
+    },
+    {
+      "pagina": "ratatouille",
+      "descricao": "Ratatouille é um prato francês de legumes assados, como berinjela, abobrinha e pimentões, temperados com ervas."
+    },
+    {
+      "pagina": "coq_au_vin",
+      "descricao": "Coq au vin é um prato francês de frango cozido lentamente em vinho tinto, com cogumelos e cebolas."
+    },
+    {
+      "pagina": "boeuf_bourguignon",
+      "descricao": "Boeuf bourguignon é um prato francês de carne bovina cozida lentamente em vinho tinto, com legumes e bacon."
+    },
+    {
+      "pagina": "quiche_lorraine",
+      "descricao": "Quiche Lorraine é uma torta salgada francesa, feita com massa folhada, ovos, creme de leite e bacon."
+    },
+    {
+      "pagina": "croque_monsieur",
+      "descricao": "Croque Monsieur é um sanduíche francês de presunto e queijo, gratinado com molho bechamel."
+    },
+    {
+      "pagina": "pain_au_chocolat",
+      "descricao": "Pain au chocolat é um pão folhado francês recheado com chocolate, perfeito para o café da manhã."
+    },
+    {
+      "pagina": "madeleine",
+      "descricao": "Madeleine é um pequeno bolo francês em formato de concha, com sabor delicado de baunilha e limão."
+    },
+    {
+      "pagina": "macaron_francês",
+      "descricao": "Macaron francês é um doce feito com amêndoas, claras de ovos e recheios variados, como ganache e geleias."
+    },
+    {
+      "pagina": "brioche",
+      "descricao": "Brioche é um pão francês doce e fofo, feito com manteiga e ovos, perfeito para café da manhã ou lanche."
+    },
+    {
+      "pagina": "crepe_salado",
+      "descricao": "Crepe salgado é uma massa fina recheada com queijo, presunto e legumes, uma opção leve e saborosa."
+    },
+    {
+      "pagina": "crepe_doce",
+      "descricao": "Crepe doce é uma massa fina recheada com chocolate, frutas ou geleia, uma sobremesa deliciosa e versátil."
+    },
+    {
+      "pagina": "churros",
+      "descricao": "Churros são deliciosos bastões de massa frita, cobertos com açúcar e canela, servidos com chocolate quente."
+    },
+    {
+      "pagina": "empanadas",
+      "descricao": "Empanadas são pastéis assados ou fritos, recheados com carne, queijo ou legumes, uma iguaria latino-americana."
+    },
+    {
+      "pagina": "arepas",
+      "descricao": "Arepas são bolos de milho assados, recheados com queijo, frango ou carne, uma iguaria venezuelana."
+    },
+    {
+      "pagina": "ceviche_peruano",
+      "descricao": "Ceviche peruano é um prato refrescante feito com peixe cru marinado em suco de limão, cebola roxa e pimenta."
+    },
+    {
+      "pagina": "lomo_saltado",
+      "descricao": "Lomo saltado é um prato peruano de carne salteada com cebola, tomate e batata frita, servido com arroz."
+    },
+    {
+      "pagina": "aji_de_gallina",
+      "descricao": "Ají de gallina é um prato peruano de frango desfiado em molho cremoso de pimenta amarela, servido com arroz."
+    },
+    {
+      "pagina": "anticuchos",
+      "descricao": "Anticuchos são espetinhos de carne marinada e grelhada, uma iguaria peruana servida com molho de pimenta."
+    },
+    {
+      "pagina": "tamales",
+      "descricao": "Tamales são bolinhos de massa de milho recheados com carne ou queijo, cozidos em folhas de bananeira."
+    },
+    {
+      "pagina": "mole_poblano",
+      "descricao": "Mole poblano é um prato mexicano de frango coberto com molho de chocolate e pimenta, servido com arroz."
+    },
+    {
+      "pagina": "guacamole",
+      "descricao": "Guacamole é um molho mexicano feito com abacate, tomate, cebola e limão, perfeito para acompanhar tortilhas."
+    },
+    {
+      "pagina": "enchiladas",
+      "descricao": "Enchiladas são tortilhas recheadas com frango ou queijo, cobertas com molho de tomate e gratinadas com queijo."
+    },
+    {
+      "pagina": "burritos",
+      "descricao": "Burritos são tortilhas recheadas com carne, feijão, arroz e queijo, uma iguaria mexicana reconfortante."
+    },
+    {
+      "pagina": "quesadillas",
+      "descricao": "Quesadillas são tortilhas recheadas com queijo derretido e outros ingredientes, servidas com guacamole e sour cream."
+    },
+    {
+      "pagina": "nachos",
+      "descricao": "Nachos são tortilhas crocantes cobertas com queijo derretido, feijão, guacamole e pimenta jalapeño."
+    },
+    {
+      "pagina": "fajitas",
+      "descricao": "Fajitas são tiras de carne grelhada servidas com cebola, pimentão e tortilhas, uma iguaria mexicana."
+    },
+    {
+      "pagina": "pozole",
+      "descricao": "Pozole é uma sopa mexicana feita com milho hominy, carne de porco e temperada com pimenta e ervas."
+    },
+    {
+      "pagina": "chiles_en_nogada",
+      "descricao": "Chiles en nogada é um prato mexicano de pimentas recheadas com carne e cobertas com molho de nozes e romã."
+    },
+    {
+      "pagina": "flan",
+      "descricao": "Flan é uma sobremesa cremosa de caramelo, feita com leite condensado, ovos e baunilha, uma delícia mexicana."
+    },
+    {
+      "pagina": "arroz_con_leche",
+      "descricao": "Arroz con leche é uma sobremesa cremosa de arroz doce, feita com leite, canela e casca de limão."
+    },
+    {
+      "pagina": "tres_leches",
+      "descricao": "Tres leches é um bolo úmido e cremoso, feito com três tipos de leite e coberto com chantilly."
+    },
+    {
+      "pagina": "churros_mexicanos",
+      "descricao": "Churros mexicanos são deliciosos bastões de massa frita, cobertos com açúcar e canela, servidos com chocolate quente."
+    },
+    {
+      "pagina": "horchata",
+      "descricao": "Horchata é uma bebida mexicana refrescante, feita com arroz, canela e baunilha, perfeita para dias quentes."
+    },
+    {
+      "pagina": "aguas_frescas",
+      "descricao": "Aguas frescas são bebidas mexicanas feitas com frutas frescas, água e açúcar, como hibisco e tamarindo."
+    },
+    {
+      "pagina": "margarita",
+      "descricao": "Margarita é um coquetel mexicano feito com tequila, suco de limão e triple sec, servido com sal na borda."
+    },
+    {
+      "pagina": "mojito",
+      "descricao": "Mojito é um coquetel refrescante feito com rum, hortelã, limão, açúcar e água com gás."
+    },
+    {
+      "pagina": "caipirinha",
+      "descricao": "Caipirinha é um coquetel brasileiro feito com cachaça, limão, açúcar e gelo, uma bebida refrescante e saborosa."
+    },
+    {
+      "pagina": "pisco_sour",
+      "descricao": "Pisco sour é um coquetel peruano feito com pisco, suco de limão, clara de ovo e xarope de açúcar."
+    },
+    {
+      "pagina": "sangria",
+      "descricao": "Sangria é uma bebida espanhola feita com vinho tinto, frutas frescas e um toque de licor, perfeita para festas."
+    },
+    {
+      "pagina": "mimosa",
+      "descricao": "Mimosa é um coquetel feito com champanhe e suco de laranja, ideal para brunchs e celebrações."
+    },
+    {
+      "pagina": "bellini",
+      "descricao": "Bellini é um coquetel italiano feito com prosecco e purê de pêssego, uma bebida elegante e refrescante."
+    },
+    {
+      "pagina": "cosmopolitan",
+      "descricao": "Cosmopolitan é um coquetel feito com vodka, suco de cranberry, triple sec e suco de limão, servido em taça de martini."
+    },
+    {
+      "pagina": "martini",
+      "descricao": "Martini é um coquetel clássico feito com gin ou vodka e vermute, servido com uma azeitona ou toranja."
+    },
+    {
+      "pagina": "negroni",
+      "descricao": "Negroni é um coquetel italiano feito com gin, vermute tinto e Campari, servido com gelo e uma casca de laranja."
+    },
+    {
+      "pagina": "old_fashioned",
+      "descricao": "Old Fashioned é um coquetel clássico feito com uísque, açúcar, angostura e uma casca de laranja."
+    },
+    {
+      "pagina": "whiskey_sour",
+      "descricao": "Whiskey sour é um coquetel feito com uísque, suco de limão, açúcar e clara de ovo, servido com gelo."
+    },
+    {
+      "pagina": "manhattan",
+      "descricao": "Manhattan é um coquetel clássico feito com uísque, vermute doce e angostura, servido com uma cereja."
+    },
+    {
+      "pagina": "daiquiri",
+      "descricao": "Daiquiri é um coquetel feito com rum, suco de limão e açúcar, servido gelado e sem gelo."
+    },
+    {
+      "pagina": "piña_colada",
+      "descricao": "Piña colada é um coquetel tropical feito com rum, suco de abacaxi e leite de coco, servido com gelo triturado."
+    },
+    {
+      "pagina": "mai_tai",
+      "descricao": "Mai tai é um coquetel tropical feito com rum, suco de limão, amêndoa e licor de laranja, servido com gelo."
+    },
+    {
+      "pagina": "blue_lagoon",
+      "descricao": "Blue lagoon é um coquetel colorido feito com vodka, curaçao azul e suco de limão, servido com gelo."
+    },
+    {
+      "pagina": "sex_on_the_beach",
+      "descricao": "Sex on the beach é um coquetel doce feito com vodka, suco de cranberry, pêssego e suco de laranja."
+    },
+    {
+      "pagina": "long_island_iced_tea",
+      "descricao": "Long Island iced tea é um coquetel forte feito com vodka, gin, rum, tequila, triple sec e cola."
+    },
+    {
+      "pagina": "mojito_de_morango",
+      "descricao": "Mojito de morango é uma variação do clássico mojito, feito com morangos frescos, hortelã, rum e limão."
+    },
+    {
+      "pagina": "caipirinha_de_maracujá",
+      "descricao": "Caipirinha de maracujá é uma variação da caipirinha tradicional, feita com maracujá, cachaça, açúcar e gelo."
+    },
+    {
+      "pagina": "caipirinha_de_abacaxi",
+      "descricao": "Caipirinha de abacaxi é uma variação da caipirinha tradicional, feita com abacaxi, cachaça, açúcar e gelo."
+    },
+    {
+      "pagina": "caipirinha_de_manga",
+      "descricao": "Caipirinha de manga é uma variação da caipirinha tradicional, feita com manga, cachaça, açúcar e gelo."
+    },
+    {
+      "pagina": "caipirinha_de_kiwi",
+      "descricao": "Caipirinha de kiwi é uma variação da caipirinha tradicional, feita com kiwi, cachaça, açúcar e gelo."
+    },
+    {
+      "pagina": "caipirinha_de_morango",
+      "descricao": "Caipirinha de morango é uma variação da caipirinha tradicional, feita com morangos, cachaça, açúcar e gelo."
+    },
+    {
+      "pagina": "caipirinha_de_limão_siciliano",
+      "descricao": "Caipirinha de limão siciliano é uma variação da caipirinha tradicional, feita com limão siciliano, cachaça, açúcar e gelo."
+    },
+    {
+      "pagina": "caipirinha_de_framboesa",
+      "descricao": "Caipirinha de framboesa é uma variação da caipirinha tradicional, feita com framboesas, cachaça, açúcar e gelo."
+    },
+    {
+      "pagina": "caipirinha_de_amora",
+      "descricao": "Caipirinha de amora é uma variação da caipirinha tradicional, feita com amoras, cachaça, açúcar e gelo."
+    },
+    {
+      "pagina": "caipirinha_de_pêssego",
+      "descricao": "Caipirinha de pêssego é uma variação da caipirinha tradicional, feita com pêssego, cachaça, açúcar e gelo."
+    },
+    {
+      "pagina": "caipirinha_de_uva",
+      "descricao": "Caipirinha de uva é uma variação da caipirinha tradicional, feita com uvas, cachaça, açúcar e gelo."
+    },
+    {
+      "pagina": "caipirinha_de_melancia",
+      "descricao": "Caipirinha de melancia é uma variação da caipirinha tradicional, feita com melancia, cachaça, açúcar e gelo."
+    },
+    {
+      "pagina": "caipirinha_de_coco",
+      "descricao": "Caipirinha de coco é uma variação da caipirinha tradicional, feita com coco, cachaça, açúcar e gelo."
+    },
+    {
+      "pagina": "caipirinha_de_goiaba",
+      "descricao": "Caipirinha de goiaba é uma variação da caipirinha tradicional, feita com goiaba, cachaça, açúcar e gelo."
+    },
+    {
+      "pagina": "caipirinha_de_caju",
+      "descricao": "Caipirinha de caju é uma variação da caipirinha tradicional, feita com caju, cachaça, açúcar e gelo."
+    },
+    {
+      "pagina": "caipirinha_de_graviola",
+      "descricao": "Caipirinha de graviola é uma variação da caipirinha tradicional, feita com graviola, cachaça, açúcar e gelo."
+    },
+    {
+      "pagina": "caipirinha_de_cupuaçu",
+      "descricao": "Caipirinha de cupuaçu é uma variação da caipirinha tradicional, feita com cupuaçu, cachaça, açúcar e gelo."
+    },
+    {
+      "pagina": "caipirinha_de_açaí",
+      "descricao": "Caipirinha de açaí é uma variação da caipirinha tradicional, feita com açaí, cachaça, açúcar e gelo."
+    },
+    {
+      "pagina": "caipirinha_de_jabuticaba",
+      "descricao": "Caipirinha de jabuticaba é uma variação da caipirinha tradicional, feita com jabuticaba, cachaça, açúcar e gelo."
+    },
+    {
+      "pagina": "caipirinha_de_cajá",
+      "descricao": "Caipirinha de cajá é uma variação da caipirinha tradicional, feita com cajá, cachaça, açúcar e gelo."
+    },
+    {
+      "pagina": "caipirinha_de_acerola",
+      "descricao": "Caipirinha de acerola é uma variação da caipirinha tradicional, feita com acerola, cachaça, açúcar e gelo."
+    },
+    {
+      "pagina": "caipirinha_de_seriguela",
+      "descricao": "Caipirinha de seriguela é uma variação da caipirinha tradicional, feita com seriguela, cachaça, açúcar e gelo."
+    }
+  ]
+}

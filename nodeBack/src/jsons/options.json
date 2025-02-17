@@ -1,0 +1,30 @@
+{
+  "options": {
+    "sort_raising": {
+      "terms": [
+        "ascendente",
+        "crescente",
+        "crescentemente",
+        "do menor para o maior",
+        "do mais antigo para o mais recente",
+        "do mais barato para o mais caro"
+      ]
+    },
+    "sort_descending": {
+      "terms": [
+        "descendente",
+        "decrescente",
+        "decrescentemente",
+        "do maior para o menor",
+        "do mais recente para o mais antigo",
+        "do mais caro para o mais barato"
+      ]
+    },
+    "filter_positive": {
+      "terms": ["apenas", "somente", "que contenham", "inclua"]
+    },
+    "filter_negative": {
+      "terms": ["não", "nem", "exclua", "desconsiderando", "ignorando"]
+    }
+  }
+}
