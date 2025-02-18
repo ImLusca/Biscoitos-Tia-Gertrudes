@@ -1,4 +1,4 @@
-import { Terms } from "./types";
+import { Resposta, Terms } from "./types";
 import { optionsEmbeddings } from "./jsons/optionsEmbeddings.json";
 
 const stopwords = new Set([
@@ -24,10 +24,6 @@ export const cosineSimilarity = (vecA: number[], vecB: number[]): number => {
   const dotProduct = vecA.reduce((sum, a, i) => sum + a * vecB[i], 0);
   const magnitudeA = Math.sqrt(vecA.reduce((sum, a) => sum + a * a, 0));
   const magnitudeB = Math.sqrt(vecB.reduce((sum, b) => sum + b * b, 0));
-
-  if (magnitudeA === 0 || magnitudeB === 0) {
-    throw new Error("Os vetores não podem ter magnitude zero.");
-  }
 
   return dotProduct / (magnitudeA * magnitudeB);
 };
@@ -73,4 +69,16 @@ export const checkForOptions = (
   checkTerms("filter_negative", optionsEmbeddings.filter_negative.terms);
 
   return bestMatch;
+};
+
+export const isValidResposta = (obj: any): obj is Resposta => {
+  return (
+    typeof obj === "object" &&
+    obj !== null &&
+    typeof obj.page === "string" &&
+    typeof obj.sort === "boolean" &&
+    typeof obj.filter === "boolean" &&
+    (obj.sort_item === undefined || typeof obj.sort_item === "string") &&
+    (obj.filter_item === undefined || typeof obj.filter_item === "string")
+  );
 };

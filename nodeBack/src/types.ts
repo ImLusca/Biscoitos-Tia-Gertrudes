@@ -6,6 +6,14 @@ export interface Referencia {
   termsEmbeddings?: number[][];
 }
 
+export interface Resposta {
+  page: string;
+  sort: boolean;
+  filter: boolean;
+  sort_value?: string;
+  filter_value?: string;
+}
+
 export interface Options {
   sort_raising: {
     terms: string[];

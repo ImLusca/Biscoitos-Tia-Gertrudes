@@ -1,6 +1,6 @@
 import { embeddingsRefs } from "./jsons/embeddings/embeddingsRef.json";
 import { Referencia } from "./types";
-import { checkForOptions, cosineSimilarity } from "./utils";
+import { cosineSimilarity } from "./utils";
 
 const DEFAULT_REFERENCIA: Referencia = {
   item: "",
@@ -10,23 +10,35 @@ const DEFAULT_REFERENCIA: Referencia = {
   termsEmbeddings: [],
 };
 
-export const compareEmbeddings = (embedding: number[]) => {
-  let bestMatchReference: Referencia = DEFAULT_REFERENCIA;
-  let bestMatch = 0.0;
+export interface EmbeddingSimilarity {
+  similaridade: number;
+  item: Omit<Referencia, "termsEmbeddings" | "terms">;
+}
 
-  embeddingsRefs.forEach((reference: Referencia) => {
-    reference.termsEmbeddings?.forEach((termEmbedding) => {
-      const similarity = cosineSimilarity(embedding, termEmbedding);
-      if (similarity > bestMatch) {
-        bestMatch = similarity;
-        bestMatchReference = reference;
-      }
+export const compareEmbeddings = (
+  embedding: number[]
+): EmbeddingSimilarity[] => {
+  const referenceSimilarities: EmbeddingSimilarity[] = [];
+  try {
+    embeddingsRefs.forEach((reference: Referencia) => {
+      let bestSimilarity = 0.0;
+
+      reference.termsEmbeddings?.forEach((termEmbedding) => {
+        const similarity = cosineSimilarity(embedding, termEmbedding);
+        if (similarity > bestSimilarity) {
+          bestSimilarity = similarity;
+        }
+      });
+
+      const { terms, termsEmbeddings, ...resto } = reference;
+      referenceSimilarities.push({ similaridade: bestSimilarity, item: resto });
     });
-  });
 
-  const option = checkForOptions(embedding);
+    referenceSimilarities.sort((a, b) => b.similaridade - a.similaridade);
 
-  const { terms, termsEmbeddings, ...resto } = bestMatchReference;
-
-  return { similaridade: bestMatch, item: resto, opcao: option };
+    return referenceSimilarities.slice(0, 5);
+  } catch (error) {
+    console.error("Erro ao comparar embeddings:", error);
+    return referenceSimilarities;
+  }
 };

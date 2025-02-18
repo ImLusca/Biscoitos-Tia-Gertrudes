@@ -2,3 +2,4 @@ nodeBack/node_modules
 cSharpBack/
 nodeBack/*.env
 nodeBack/dist
+nodeBack/src/jsons/
