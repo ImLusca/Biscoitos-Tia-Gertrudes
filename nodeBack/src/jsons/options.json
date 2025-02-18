@@ -5,9 +5,18 @@
         "ascendente",
         "crescente",
         "crescentemente",
-        "do menor para o maior",
-        "do mais antigo para o mais recente",
-        "do mais barato para o mais caro"
+        "ordem crescente",
+        "menor maior",
+        "mais antigo mais recente",
+        "mais barato mais caro",
+        "ordem ascendente",
+        "a z",
+        "inicio fim",
+        "primeiro ultimo",
+        "mais baixo mais alto",
+        "mais leve mais pesado",
+        "mais simples mais complexo",
+        "mais curto mais longo"
       ]
     },
     "sort_descending": {
@@ -15,16 +24,60 @@
         "descendente",
         "decrescente",
         "decrescentemente",
-        "do maior para o menor",
-        "do mais recente para o mais antigo",
-        "do mais caro para o mais barato"
+        "maior menor",
+        "mais recente mais antigo",
+        "mais caro mais barato",
+        "ordem descendente",
+        "z a",
+        "fim inicio",
+        "ultimo primeiro",
+        "mais alto mais baixo",
+        "mais pesado mais leve",
+        "mais complexo mais simples",
+        "mais longo mais curto"
       ]
     },
     "filter_positive": {
-      "terms": ["apenas", "somente", "que contenham", "inclua"]
+      "terms": [
+        "apenas",
+        "somente",
+        "que contenham",
+        "inclua",
+        "apenas os",
+        "somente os",
+        "que tenham",
+        "que possuam",
+        "que incluam",
+        "filtre por",
+        "mostre apenas",
+        "exiba somente",
+        "selecione os que",
+        "apenas com",
+        "somente com",
+        "com"
+      ]
     },
     "filter_negative": {
-      "terms": ["não", "nem", "exclua", "desconsiderando", "ignorando"]
+      "terms": [
+        "nao",
+        "nem",
+        "exclua",
+        "desconsiderando",
+        "ignorando",
+        "remova",
+        "evite",
+        "nao inclua",
+        "nao mostre",
+        "nao exiba",
+        "nao considere",
+        "nao selecione",
+        "omitindo",
+        "descartando",
+        "exceto",
+        "tirando",
+        "fora",
+        "sem"
+      ]
     }
   }
 }
